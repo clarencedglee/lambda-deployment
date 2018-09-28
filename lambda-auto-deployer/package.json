@@ -1,0 +1,10 @@
+{
+  "name": "lambda-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "zip -j build/lambda-auto-deployer.zip src/*",
+    "infra": "cd terraform; terraform init; terraform apply"
+  }
+}
